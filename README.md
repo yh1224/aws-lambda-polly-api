@@ -1,4 +1,4 @@
-# aws-polly-proxy
+# aws-lambda-polly-api
 
 AWS Lambda 上で [AWS Polly](https://aws.amazon.com/jp/polly/) による合成音声を返す Web API を構築します。
 
@@ -24,7 +24,7 @@ cdk deploy
 デプロイが完了すると、以下のように Web API の URL が出力されます。
 
 ```
-AwsPollyProxyStack.ApiUrl = https://XXXXXXXXXXXXXXXX.lambda-url.ap-northeast-1.on.aws/
+AwsLambdaPollyApiStack.ApiUrl = https://XXXXXXXXXXXXXXXX.lambda-url.ap-northeast-1.on.aws/
 ```
 
 text パラメーターを指定してこの URL に POST すると、レスポンスとして mp3 データが返ってきます。

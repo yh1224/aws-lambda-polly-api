@@ -1,8 +1,8 @@
 {
-  "name": "aws-polly-proxy",
+  "name": "aws-lambda-polly-api",
   "version": "0.1.0",
   "bin": {
-    "aws-polly-proxy": "bin/aws-polly-proxy.js"
+    "aws-lambda-polly-api": "bin/aws-lambda-polly-api.js"
   },
   "scripts": {
     "build": "tsc",

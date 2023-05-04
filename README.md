@@ -35,6 +35,18 @@ curl -X POST https://XXXXXXXXXXXXXXXX.lambda-url.ap-northeast-1.on.aws \
     -o voice.mp3
 ```
 
+## 料金
+
+以下の料金がかかります。
+
+- [AWS Lambda](https://aws.amazon.com/jp/lambda/pricing/) (呼出回数+処理時間に応じて)
+- [Amazon Polly](https://aws.amazon.com/jp/polly/pricing/) (処理したテキストの文字数に応じて)
+- データ転送
+
+## 削除
+
+不要になったら、AWS CloudFormation に作成された AwsLambdaPollyApiStack スタックを削除してください。
+
 ## 注意
 
 - 認証には対応していません。
